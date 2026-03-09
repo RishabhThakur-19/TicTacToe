@@ -13,9 +13,16 @@
   }
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
     /* background-color: rgb(42, 40, 40); */
     background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    margin: 0;
+    padding: 0;
 }
 
 #container{

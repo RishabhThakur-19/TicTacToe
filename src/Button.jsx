@@ -40,7 +40,7 @@ let status;
 
   return (
     <>
-    <div className="w-full overflow-hidden flex justify-center" id="container ">
+    <div className="w-full h-full overflow-hidden flex justify-center" id="container ">
         <div id="title" className='text-5xl' >{status}</div>
         
         <div className="h-full w-full absolute flex flex-col justify-center items-center my-8  gap-1">
@@ -62,7 +62,7 @@ let status;
                </div>
         </div>
          <button onClick={() => window.location.reload(false)} id="reset" className='absolute flex justify-center bottom-8 md:absolute
-          md:top-30 md:left-190'>Reset</button>
+          md:top-30 md:left-190 lg:absolute lg:top-30 lg:left-240'>Reset</button>
     </div>
     </>
   )
